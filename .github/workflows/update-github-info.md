@@ -36,3 +36,4 @@ Open a pull request for Mona to review.
 Use a pull request title that mentions Mona or GitHub Info.
 Do not write directly to `main`;
 rely on `safe-outputs` with `create-pull-request`.
+Do not run `gh aw compile` or regenerate this workflow's `.lock.yml` file.
