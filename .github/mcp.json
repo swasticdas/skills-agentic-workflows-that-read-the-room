@@ -5,7 +5,8 @@
       "command": "gh",
       "args": [
         "aw",
-        "mcp-server"
+        "mcp-server",
+        "--allow-write-tools"
       ],
       "tools": [
         "compile",
@@ -13,7 +14,8 @@
         "logs",
         "inspect",
         "status",
-        "audit-diff"
+        "audit-diff",
+        "work-queue"
       ]
     }
   }
